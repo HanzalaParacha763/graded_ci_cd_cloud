@@ -1,0 +1,10 @@
+{
+  "name": "student-management-ci-cd",
+  "version": "1.0.0",
+  "description": "Student Management System with CI/CD Pipeline",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"No tests yet\""
+  }
+}
