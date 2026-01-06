@@ -5,7 +5,7 @@ describe("Student Management API", () => {
   test("GET / should return API status", async () => {
     const res = await request(app).get("/");
     expect(res.statusCode).toBe(200);
-    expect(res.body.status).toBe("Student Management API is running");
+    expect(res.body.status).toBe("Student Management API is running and working");
   });
 
   test("POST /students should add a student", async () => {
