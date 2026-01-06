@@ -8,7 +8,7 @@ let students = [];
 
 // Health check
 app.get("/", (req, res) => {
-  res.json({ status: "Student Management API is running" });
+  res.json({ status: "Student Management API is running and working" });
 });
 
 // Add student
